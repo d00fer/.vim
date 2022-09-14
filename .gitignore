@@ -1,5 +1,2 @@
 /autoload
 /plugged
-plugged/*
-!plugged/.gitkeep
-.netrwhist
