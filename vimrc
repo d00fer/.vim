@@ -34,14 +34,13 @@ filetype indent on
 colo gruvbox
 "golang
 let g:go_template_autocreate = 0
-"fugitive 
-nmap <leader>gh :diffget //3<CR>
-nmap <leader>gu :diffget //2<CR>
-nmap <leader>gs :G<CR>
 "ycm 
 let g:ycm_autoclose_preview_window_after_insertion = 1 
 let g:ycm_autoclose_preview_window_after_completion = 1
 let g:ycm_disable_signature_help = 1
+let g:ycm_semantic_triggers = {
+   \   'css': [ 're!^', 're!^\s+', ': '  ],
+\}
 "netrw
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
